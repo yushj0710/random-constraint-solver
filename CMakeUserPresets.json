@@ -1,0 +1,28 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 10,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "user-default",
+      "inherits": "default",
+      "description": "User default build configuration",
+      "hidden": false
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "user-default",
+      "configurePreset": "user-default"
+    }
+  ],
+  "testPresets": [
+    {
+      "name": "user-default",
+      "configurePreset": "user-default"
+    }
+  ]
+}
